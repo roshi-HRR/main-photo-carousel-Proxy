@@ -1,0 +1,26 @@
+{
+  "name": "proxy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roshi-HRR/main-photo-carousel-Proxy.git"
+  },
+  "author": "Emily Meeks",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/roshi-HRR/main-photo-carousel-Proxy/issues"
+  },
+  "homepage": "https://github.com/roshi-HRR/main-photo-carousel-Proxy#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "http-proxy-middleware": "^0.20.0",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.19.4"
+  }
+}
